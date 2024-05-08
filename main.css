@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 5px;
+    border: 3px solid black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+.textarea {
+        width: 100%;
+    }
+
+.boton {
+        font-size: larger;
+        background-color: rosybrown;
+}

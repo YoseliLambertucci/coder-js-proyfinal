@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Formulario de inscricion de proveedores</h1>
-    <script src="./primera-entrega.js"></script>
+    <form action="">
+        <label for="nombre">Nombre y Apellido o Razon Social</label>
+        <input type="text" name="nombre" id="nombre" placeholder="escribe tu nombre">
+
+        <label for="celular">celular</label>
+        <input type="number" name="celular" id="celular" placeholder="escribe tu whatsapp">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="ej xxx@gmail.com">
+
+        <label for="direccion">Direccion</label>
+        <input type="direccion" name="direccion" id="direccion" placeholder="av Martin Pescador n 111">
+
+        <label for="actividad">Actividad que desarrolla</label>
+        <input type="actividad" name="actividad" id="actividad" placeholder="venta al por menor de productos alimentarios">
+
+        <label for="tema">Condision ante IVA</label>
+        <select name="tema" id="tema">
+            <option value="RI">Responsable Inscripto</option>
+            <option value="iva-exento">Iva exento</option>
+            <option value="Monotributo">Monotributo</option>
+        </select>
+
+        <p>informacion extra sobre su empresa que se deba considerar:</p>
+        <textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
+        <input class="boton" type="submit" value="enviar">
+    </form>
+
+    <script src="./segunda-entrega.js"></script>
 </body>
+
 </html>
