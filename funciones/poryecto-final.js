@@ -37,3 +37,4 @@ function registrarproveedores() {
         fetch("./data.json")
         .then(Response=>Response.json())
         .then (data=>console.log(data))
+        
