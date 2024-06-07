@@ -11,8 +11,6 @@ function registrarproveedores() {
         email: formulario.email.value,
         direccion: formulario.direccion.value,
         actividad: formulario.actividad.value,
-        tema: formulario.tema.value,
-        extra: formulario.extra.value,
     };
 
     const DatosJason = JSON.stringify(datosProveedores);
@@ -34,7 +32,8 @@ function registrarproveedores() {
         }
     GuardarArray()
     
+   // fetch!!! vamos que puedo!! trabaja de forma asincronica
 
-
-
-
+        fetch("./data.json")
+        .then(Response=>Response.json())
+        .then (data=>console.log(data))

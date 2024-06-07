@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "yoseli",
+        "celular" : 226748944,
+        "email": "yoselilambertucci@gmial.com",
+        "direccion": "intermedanos",
+        "actividad": "contadora"
+    },
+    {
+        "nombre": "marco",
+        "celular" : 226748944,
+        "email": "marco@gmial.com",
+        "direccion": "intermedanos",
+        "actividad": "guardavida"
+    },
+    {
+        "nombre": "luis",
+        "celular" : 226748944,
+        "email": "luis@gmial.com",
+        "direccion": "intermedanos",
+        "actividad": "vendedor"
+    },
+    {
+        "nombre": "marta",
+        "celular" : 226748944,
+        "email": "marta@gmial.com",
+        "direccion": "intermedanos",
+        "actividad": "vendedora"
+    }
+]
